@@ -7,7 +7,7 @@
 * Developers can work on bug
 
 ![Static Badge](https://img.shields.io/badge/FastAPI-0.116.1-green?color=%23006400)
-![Static Badge](https://img.shields.io/badge/Python-3.13-green?color=%23000400)
+![Static Badge](https://img.shields.io/badge/Python-3.13-green?color=%23006400)
 
 # Steps to run and test endpoints
 
