@@ -13,20 +13,30 @@
 
 ## 1. Clone repo
 
-### git clone https://github.com/Samson23-ux/Bug-Tracker.git
+```shell
+git clone https://github.com/Samson23-ux/Bug-Tracker.git
+```
 
 ## 2. Create enviroment
 
-### python -m venv venv
+```shell
+python -m venv venv
+```
 
 ## 3. Activate enviroment
 
-### venv\Scripts\activate or source venv/bin/activate (for apple)
+```shell
+venv\Scripts\activate or source venv/bin/activate (for apple)
+```
 
 ## 4. Run Server
 
-### uvicorn app.main:main --reload
+```shell
+uvicorn app.main:main --reload
+```
 
 ## 5. Test Endpoints
 
-### run http://localhost:8000/docs on browser
+```shell
+run http://localhost:8000/docs on browser
+```
