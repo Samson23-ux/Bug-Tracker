@@ -29,13 +29,19 @@ python -m venv venv
 venv\Scripts\activate or source venv/bin/activate (for apple)
 ```
 
-## 4. Run Server
+## 4. Install Dependencies
+
+```shell
+pip install -r requirements.txt
+```
+
+## 5. Run Server
 
 ```shell
 uvicorn app.main:main --reload
 ```
 
-## 5. Test Endpoints
+## 6. Test Endpoints
 
 ```shell
 run http://localhost:8000/docs on browser
